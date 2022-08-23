@@ -2,7 +2,7 @@ from typing import TYPE_CHECKING, Any, Callable, Iterable, Mapping, Optional, Se
 
 from airflow.models import BaseOperator
 from airflow.providers.common.sql.hooks.sql import fetch_all_handler
-from airflow.providers.netezza.hooks.netezza import NetezzaHook
+from airflownz.hooks.netezza import NetezzaHook
 
 if TYPE_CHECKING:
     from airflow.utils.context import Context
