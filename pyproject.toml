@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "Airflow Hook for Netezza"
 authors = ["Sanjay Renduchintala <san8055@gmail.com>"]
 license = "Apache License Version 2.0"
+readme = "README.md"
 packages = [
     { include = "airflownz" },
 ]
