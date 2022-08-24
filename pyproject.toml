@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "Airflow Hook for Netezza"
 authors = ["Sanjay Renduchintala <san8055@gmail.com>"]
 license = "Apache License Version 2.0"
+readme = "README.md"
 packages = [
     { include = "airflownz" },
 ]
@@ -15,6 +16,7 @@ apache-airflow-providers-common-sql = "^1.1.0"
 nzpy = "^1.13.2"
 
 [tool.poetry.dev-dependencies]
+twine = "^4.0.1"
 
 [tool.poetry.plugins."apache_airflow_provider"]
 "provider_info" = "airflownz.provider_info:get_provider_info"
